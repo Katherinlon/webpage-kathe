@@ -1,0 +1,51 @@
+/* Prueba.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 55px;
+  }
+  
+  .img {
+    width: 950px;
+    height: 450px;
+  }
+  
+  .botones {
+    width: 100px;
+    height: 50px;
+    background-color: #333333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .izquierda {
+    margin-right: 10px;
+  }
+  
+  .derecha {
+    margin-left: 10px;
+  }
+  
+  .botones {
+    width: 100px;
+    height: 50px;
+    background-color: #22eeaa;
+    color: #fff;
+    font-weight: lighter;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s; /* Agrega una transición suave */
+  }
+  
+  .botones:hover {
+    background-color: #22eeaa; /* Cambia el color al pasar el mouse */
+    color: #333; /* Cambia el color de texto al pasar el mouse */
+  }
+  

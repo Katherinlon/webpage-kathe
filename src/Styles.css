@@ -1,0 +1,5 @@
+body {
+    background-image: url("Logo.avif");
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra toda la página */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+  }
